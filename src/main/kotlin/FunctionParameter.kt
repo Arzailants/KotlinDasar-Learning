@@ -21,3 +21,12 @@ fun myMethod(firstName:String, lastName:String?){
         println("Hello $firstName $lastName")
     }
 }
+
+
+fun mySecret(dataFirst:String, dataSecond:String?){
+    if (dataSecond == null ){
+        println("Hello $dataFirst")
+    } else {
+        println("Hello $dataFirst $dataSecond")
+    }
+}
