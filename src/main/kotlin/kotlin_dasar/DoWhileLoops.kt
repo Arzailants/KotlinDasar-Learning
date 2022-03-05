@@ -1,0 +1,13 @@
+package kotlin_dasar
+
+fun main(){
+
+    // MEMBUAT PERULANGAN DENGAN DO WHILE LOOP
+    // DO WHILE LOOP ADALAH PERULANGAN YANG HAMPIRSAMA DENGAN WHILE LOOP
+    // YANG MEMBEDAKAN ADALAH, PADA DO WHILE LOOP, KODE BLOKA AKAN DIJALANKAN DAHULU BARU DIAKHIR DILAKUKAN PENGECEKAN KONDISI
+    var data = 0
+    do {
+        println("Perulangan ke $data")
+        data++
+    } while (data < 20)
+}
