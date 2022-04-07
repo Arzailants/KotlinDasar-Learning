@@ -28,6 +28,5 @@ class Masters<T>(val names: T) where T: Employee, T: CanSayHello{
 fun main() {
     val dats = Masters(VicePresident())
     println(dats.names)
-    dats.
 
 }
